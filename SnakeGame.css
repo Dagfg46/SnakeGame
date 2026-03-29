@@ -1,0 +1,33 @@
+.snake-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  gap: 1px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background: #eee;
+}
+
+.snake {
+  background: green;
+}
+
+.food {
+  background: red;
+}
+
+.game-over {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
